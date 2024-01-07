@@ -7,6 +7,7 @@
     `Order Service:` Handles order processing and management. (To be implemented)
 
     `Inventory Service:` Manages stock and inventory levels. (To be implemented)
+    
     `API Gateway:` Acts as the single entry point to the system, routing requests to appropriate services.
 
     Each microservice is designed with its own database to ensure service independence and scalability. They communicate asynchronously via Kafka for event-driven interactions and synchronously via gRPC or REST APIs for direct service-to-service communication.
